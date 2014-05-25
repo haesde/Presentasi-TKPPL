@@ -1,0 +1,8 @@
+*.seed
+*.log
+*.3gp
+*.mpg
+.DS_Store
+thumbs.db
+*.log
+node_modules/
