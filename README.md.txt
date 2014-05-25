@@ -1,1 +1,0 @@
-Slide Presentasi Percobaan
