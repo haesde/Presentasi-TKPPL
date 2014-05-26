@@ -1,0 +1,67 @@
+=======================
+INFORMASI UMUM
+
+Nama kelompok: Aegis
+Judul Topik: Perkembangan Spesial Efek Film dari Masa ke Masa
+Alamat Github: https://github.com/newbieboy/Presentasi-TKPPL.git
+Alamat Trello: https://trello.com/b/LuadUzKf/project-presentasi-tkppl
+Anggota 1:
+	Nama: Hardy Septian Deli
+	NIM: 121110529
+Anggota 2:
+	Nama: Klaudius Raymond Natio
+	NIM: 121110251
+Anggota 3:
+	Nama: M. Afdalah Habibi
+	NIM: 121111974
+Anggota 4:
+	Nama: Ryan Paulus Manurung
+	NIM: 121112376
+=======================
+
+
+SPRINT
+------
+Sprint 1: 
+26/5 - 28/5
+Scrummaster: Hardy Septian Deli (121110529)
+
+Sprint 2:
+29/5 - 31/5
+Scrummaster: Klaudius Raymond Natio (121110251)
+
+Sprint 3: 
+2/6 - 4/6
+Scrummaster: M. Afdalah Habibi (121111974)
+
+Sprint 4:
+5/6 - 7/6
+Scrummaster: Ryan Paulus Manurung (121112376)
+
+Progress Harian (Diupdate tiap hari)
+------------------------------------
+
+26/5 
+Daily Scrum
+(Hardy Septian Deli):
+1. -
+2. Hari ini saya akan membuat transisi slide
+3. Saya belum memiliki kendala
+
+(Klaudius Raymond Natio):
+1. -
+2. Saya akan membuat list spesial efek film 
+3. Tidak ada masalah yang berarti
+
+(M. Afdalah Habibi):
+1. -
+2. Hari ini saya berencana merancang cover
+3. Belum ada Kendala dalam pengerjaan 
+
+(Ryan Paulus Manurung):
+1.
+2. Hari ini saya akan membuat pengantar 
+3. Saya tidak memiliki kendala
+
+
+...

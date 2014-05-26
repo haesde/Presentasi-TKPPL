@@ -2,8 +2,8 @@
 
 // variables!
 
-slide_width = 640px
-slide_height = 480px
+slide_width = 100%
+slide_height = 768px
 slide_background = #eaeaea
 
 slide_transition_length = .6s
@@ -34,7 +34,6 @@ bullet_transition_translate_x = 16px
 // bespoke.js layout styles
 
 article
-  transition: background slide_transition_length slide_transition_easing
   display: none
   &.bespoke-parent
     display: block
@@ -50,11 +49,6 @@ article
     perspective: 600px
 
 .bespoke-slide
-  transition:
-    transform slide_transition_length slide_transition_easing,
-    opacity slide_transition_length slide_transition_easing,
-    background slide_transition_length slide_transition_easing
-  transform-origin: 50% 50% 0
   backface-visibility: hidden
   display: flex
   flex-direction: column
@@ -80,10 +74,8 @@ article
     margin: 0
 
 .bespoke-before
-  transform: translateX(slide_transition_nudge_x * -1) translateX(slide_width / -2) rotateY(slide_transition_rotate_y * -1) translateX(slide_width / -2)
-
+  
 .bespoke-after
-  transform: translateX(slide_transition_nudge_x) translateX(slide_width / 2) rotateY(slide_transition_rotate_y) translateX(slide_width / 2)
   @media print
     transform: none
 
@@ -206,4 +198,8 @@ a
 
 @font-face
   font-family:Pacifico
+<<<<<<< HEAD
   src: url('font/Pacifico.ttf')
+=======
+  src: url('font/Pacifico.ttf')
+>>>>>>> c25fe2d21a91d511272fe5d1715feaeefd44665d
