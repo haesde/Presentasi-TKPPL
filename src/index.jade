@@ -26,9 +26,8 @@ html
         p Seiring dengan perkembangan teknologi, efek spesial juga mengalami perubahan dari masa ke masa
         
       section(data-bespoke-fx-transition="flip")
-        ul
             h3 List Spesial Efek
-            
+        ul
             li Stop Action (1895)
             li In Camera Matte (1903)
             li Glass Shot (1907)
@@ -44,6 +43,19 @@ html
             li Introvision (1981)
             li 3D Computer Graphics in a Composite (1985)
             li Live-Action 3D (2009)
+
+      section(data-bespoke-fx-transition="flip")
+            h3 Stop Action (1895)
+
+            p Spesial efek tertua yang pernah ada. 
+            p Digunakan pertama kali pada film "The Execution of Mary, Queen of Scots".
+            p Teknik ini digunakan ketika ratu akan dihukum pancung.
+
+      section(data-bespoke-fx-transition="flip")
+            video(width='320', height='240', controls='controls', autoplay='autoplay')
+            source(src='videos/stopaction.mp4', type='video/ogg')
+            object(data='videos/stopaction.mp4', width='320', height='240')
+            embed(width='320', height='240', src='videos/stopaction.mp4')
 
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.min.js')
