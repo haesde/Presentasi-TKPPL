@@ -4,7 +4,7 @@
 
 slide_width = 100%
 slide_height = 768px
-slide_background = #eaeaea
+slide_background = #129a6a
 
 slide_transition_length = .6s
 slide_transition_easing = ease
@@ -65,6 +65,14 @@ article
   background: slide_background
   padding: 40px
   border-radius: 0
+  -webkit-backface-visibility: hidden
+  -moz-backface-visibility: hidden
+  -webkit-transform: translate3d(0, 0, 0)
+  -moz-transform: translate3d(0, 0, 0)
+  transform: translate3d(0, 0, 0)
+  -webkit-transform-style: preserve-3d
+  -moz-transform-style: preserve-3d
+  transform-style: preserve-3d
   @media print
     zoom: 1 !important // disable bespoke-scale
     height: 743px // seems to correspond with an A4, landscape page height
@@ -81,12 +89,18 @@ article
 
 .bespoke-inactive
   opacity: 0
+  visibility: hidden
   pointer-events: none
   @media print
     opacity 1
 
 .bespoke-active
   opacity: 1
+  visibility: visible
+
+.fx-transitioning-in,
+.fx-transitioning-out
+  visibility: visible
 
 // bespoke-bullet styles
 
@@ -150,26 +164,28 @@ pre
 // content styles
 
 body
-  font-family: helvetica, arial, sans-serif
-  font-size: 18px
-  color: #404040
+  overflow : hidden;
+  font-family: "Lato",helvetica, arial, sans-serif
+  font-size: 24px
+  color: #e9eaef
+  background : #333333
 
 h1
-  font-size: 72px
+  font-size: 92px
   line-height: 82px
   letter-spacing: -2px
   margin-bottom: 16px
 
 h2
-  font-size: 42px
+  font-size: 72px
   letter-spacing: -1px
   margin-bottom: 8px
 
 h3
-  font-size: 24px
+  font-size: 48px
   font-weight: normal
   margin-bottom: 24px
-  color: #606060
+  color: #eec186
 
 hr
   visibility: hidden
@@ -180,6 +196,7 @@ ul
 
 li
   margin-bottom: 12px
+  text-align: left
 
 p
   margin: 0 100px 12px
@@ -199,3 +216,7 @@ a
 @font-face
   font-family:Pacifico
   src: url('../font/Pacifico.ttf')
+
+@font-face
+  font-family:Lato
+  src: url('../font/Lato.ttf')

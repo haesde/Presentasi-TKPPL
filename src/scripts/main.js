@@ -9,6 +9,6 @@ bespoke.from('article', {
   forms: true,
   fx : {
     direction: "horizontal",
-    transition: "newspaper",
+    transition: "scale-up-up"
   }
 });

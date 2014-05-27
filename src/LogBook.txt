@@ -59,9 +59,30 @@ Daily Scrum
 3. Belum ada Kendala dalam pengerjaan 
 
 (Ryan Paulus Manurung):
-1.
+1. -
 2. Hari ini saya akan membuat pengantar 
 3. Saya tidak memiliki kendala
 
+27/5 
+Daily Scrum
+(Hardy Septian Deli):
+1. Semalam saya mengganti efek transisi slide
+2. Hari ini saya berencana untuk mengedit style slide
+3. Belum ada
+
+(Klaudius Raymond Natio):
+1. Kemarin saya Membuat slide list spesial efek film
+2. Saya hari ini akan membuat slide deskripsi "Stop Action" 
+3. Belum ada masalah
+
+(M. Afdalah Habibi):
+1. Semalam saya merancang cover
+2. Hari ini saya melakukan merging dan fixing file
+3. Ada masalah dengan font
+
+(Ryan Paulus Manurung):
+1. Semalam saya membuat pengantar
+2. Hari ini saya akan merevisi pengantar lagi 
+3. Saya tidak memiliki kendala yang berarti
 
 ...
