@@ -85,4 +85,26 @@ Daily Scrum
 2. Hari ini saya akan merevisi pengantar lagi 
 3. Saya tidak memiliki kendala yang berarti
 
+28/5 
+Daily Scrum
+(Hardy Septian Deli):
+1. Semalam saya mengedit style slide
+2. Hari ini saya mengedit video "Stop Action"
+3. Ada masalah di video yang corrupt
+
+(Klaudius Raymond Natio):
+1. Kemarin saya Membuat slide deskripsi "Stop Action" dan menambah video
+2. Saya hari ini akan edit slide "Stop Action"  
+3. Ada masalah di video
+
+(M. Afdalah Habibi):
+1. Semalam saya melakukan merging file
+2. Hari ini saya melakukan editing bagian list efek film
+3. Tidak ada kendala
+
+(Ryan Paulus Manurung):
+1. Semalam saya merevisi slide pengantar
+2. Hari ini saya akan memperbaiki slide pengantar 
+3. Ada masalah di grunt server
+
 ...

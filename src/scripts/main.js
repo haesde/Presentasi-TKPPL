@@ -7,8 +7,5 @@ bespoke.from('article', {
   progress: true,
   state: true,
   forms: true,
-  fx : {
-    direction: "horizontal",
-    transition: "scale-up-up"
-  }
+  fx : true
 });
