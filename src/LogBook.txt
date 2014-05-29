@@ -107,4 +107,26 @@ Daily Scrum
 2. Hari ini saya akan memperbaiki slide pengantar 
 3. Ada masalah di grunt server
 
+29/5 
+Daily Scrum
+(Hardy Septian Deli):
+1. Kemarin saya mengatur ukuran video
+2. Hari ini saya membuat slide deskripsi "Travelling Matte"
+3. Tidak ada masalah
+
+(Klaudius Raymond Natio):
+1. Kemarin saya mengedit bagian penting dari video
+2. Hari ini saya membuat slide deskripsi "Matte Painting"
+3. Tidak ada masalah
+
+(M. Afdalah Habibi):
+1. Semalam saya melakukan editing bagian list efek film
+2. Hari ini saya membuat slide deskripsi "Camera Matte"
+3. Tidak ada kendala
+
+(Ryan Paulus Manurung):
+1. Semalam saya memperbaiki slide pengantar
+2. Hari ini saya membuat slide deskripsi "Glass Shot"
+3. 
+
 ...
