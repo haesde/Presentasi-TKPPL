@@ -34,6 +34,7 @@ bullet_transition_translate_x = 16px
 // bespoke.js layout styles
 
 article
+  transition: background slide_transition_length slide_transition_easing
   display: none
   &.bespoke-parent
     display: block
@@ -49,6 +50,11 @@ article
     perspective: 600px
 
 .bespoke-slide
+  transition:
+    transform slide_transition_length slide_transition_easing,
+    opacity slide_transition_length slide_transition_easing,
+    background slide_transition_length slide_transition_easing
+  transform-origin: 50% 50% 0
   backface-visibility: hidden
   display: flex
   flex-direction: column
@@ -65,14 +71,6 @@ article
   background: slide_background
   padding: 40px
   border-radius: 0
-  -webkit-backface-visibility: hidden
-  -moz-backface-visibility: hidden
-  -webkit-transform: translate3d(0, 0, 0)
-  -moz-transform: translate3d(0, 0, 0)
-  transform: translate3d(0, 0, 0)
-  -webkit-transform-style: preserve-3d
-  -moz-transform-style: preserve-3d
-  transform-style: preserve-3d
   @media print
     zoom: 1 !important // disable bespoke-scale
     height: 743px // seems to correspond with an A4, landscape page height
@@ -81,26 +79,14 @@ article
     position: static
     margin: 0
 
-.bespoke-before
-  
-.bespoke-after
-  @media print
-    transform: none
-
 .bespoke-inactive
   opacity: 0
-  visibility: hidden
   pointer-events: none
   @media print
     opacity 1
 
 .bespoke-active
   opacity: 1
-  visibility: visible
-
-.fx-transitioning-in,
-.fx-transitioning-out
-  visibility: visible
 
 // bespoke-bullet styles
 
