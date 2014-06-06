@@ -10,9 +10,15 @@ html
     link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
     link(rel='stylesheet', type='text/css', href='bower_components/bespoke-fx/src/animations.css')
     link(rel='stylesheet', type='text/css', href='styles/main.css')
+    link(rel='stylesheet', type='text/css', href='bootstrap-3.1.1-dist/css/bootstrap.min.css')
     // endbuild
 
   body
+
+    div(id="main-header" class="container navbar navbar-inverse navbar-fixed-top")
+      nav(id="main-nav" class="container")
+        a(href="index.html" class="brand")
+          img(id="logo" src="images/AEGISDevelopers.png",width="200px" height="70px")
 
     article
 
@@ -283,5 +289,6 @@ html
     script(src='bower_components/bespoke-fx/libs/modernizr/modernizr.custom.js')
     script(src='bower_components/prism/prism.js')
     script(src='scripts/main.js')
+    script(src='bootstrap-3.1.1-dist/js/bootstrap.min.js')
     // endbuild
       

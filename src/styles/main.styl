@@ -206,3 +206,20 @@ a
 @font-face
   font-family:Lato
   src: url('../font/Lato.ttf')
+
+.container
+  margin:0 auto
+
+.container:before,
+.container:after
+  content: ""
+  display: table
+
+.container:after
+  clear:both
+
+#main-header
+  width:100%
+
+#main-nav
+  width:1024px
